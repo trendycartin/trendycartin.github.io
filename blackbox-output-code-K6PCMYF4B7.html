@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendKart - Trendy Products Under ₹499 | COD Available</title>
+    <meta name="description" content="Shop trendy fashion, gadgets & accessories under ₹499. Cash on Delivery available across India. Fast shipping!">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/919876543210?text=Hi%20TrendKart%20Team%2C%20I%20want%20to%20shop%20trendy%20products%20under%20₹499%20😍" 
+       class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Order on WhatsApp</span>
+    </a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h2>🔥 <strong>TrendKart</strong></h2>
+            </div>
+            <div class="header-right">
+                <span class="trust-badge">1000+ Happy Customers</span>
+                <i class="fas fa-phone"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>🔥 Trendy Products <span class="highlight">Under ₹499</span></h1>
+                <p>Cash on Delivery • Free Shipping • 7 Day Returns</p>
+                <div class="hero-buttons">
+                    <a href="#bestsellers" class="btn btn-primary">Shop Now</a>
+                    <a href="https://wa.me/919876543210?text=Hi%20I%20saw%20your%20amazing%20deals%20under%20499!%20Send%20me%20catalogue%20please%20😍" 
+                       class="btn btn-whatsapp" target="_blank">Order via WhatsApp</a>
+                </div>
+                <div class="countdown">
+                    <span>Offer Ends In: </span>
+                    <div class="timer" id="countdown"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-items">
+                <div class="trust-item">
+                    <i class="fas fa-truck"></i>
+                    <span>COD Available</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>Fast Delivery</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-undo"></i>
+                    <span>7 Day Returns</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-users"></i>
+                    <span>1000+ Customers</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section id="bestsellers" class="products-section">
+        <div class="container">
+            <h2 class="section-title">🔥 Best Sellers</h2>
+            <div class="products-grid" id="bestsellers-grid">
+                <!-- Products loaded by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">✨ New Arrivals</h2>
+            <div class="products-grid" id="newarrivals-grid">
+                <!-- Products loaded by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited Deals -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">⏰ Limited Deals</h2>
+            <div class="products-grid" id="limited-grid">
+                <!-- Products loaded by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">💬 What Customers Say</h2>
+            <div class="reviews-grid">
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"Amazing quality! Got my wireless earbuds in 2 days. COD worked perfectly!"</p>
+                    <span>- Priya, Delhi</span>
+                </div>
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"Love the trendy t-shirts! Under 499 and looks premium 🔥"</p>
+                    <span>- Rohan, Mumbai</span>
+                </div>
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"Best deals ever! Ordered 3 items, all perfect!"</p>
+                    <span>- Aisha, Bangalore</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TrendKart. COD Available Across India | 7 Day Easy Returns</p>
+            <div class="social-links">
+                <a href="https://instagram.com/trendkart_official" target="_blank">📸 Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Popup -->
+    <div id="success-popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <p><strong>Someone from <span id="city-name">Delhi</span> just ordered this! 🎉</strong></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
